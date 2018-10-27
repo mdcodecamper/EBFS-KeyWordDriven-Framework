@@ -1,0 +1,28 @@
+# Landing Page Objects
+link_SignIn=//a[@title='Log in to your customer account']
+
+# Home Page Objects 
+btn_LogOut=//a[@title='Log me out']
+
+
+# Login Page Object
+txtbx_Email_Login=//input[@id='email']
+txtbx_Password=//input[@id='passwd']
+btn_LogIn=//button[@id='SubmitLogin']//span
+
+# Create Account Page Object
+txtbx_Email_Create=//input[@id='email_create']
+btn_Create_Acc=//button[@id='SubmitCreate']//span
+lbl_Error=//div[@id='create_account_error']
+
+# Register Page Object
+chkbx_Male=//input[@id='id_gender1']
+chkbx_Female=//input[@id='id_gender2']
+txtbx_FirstName=//input[@id='customer_firstname']
+txtbx_LastName=//input[@id='customer_lastname']
+txtbx_Email=//input[@id='email']
+txtbx_Password=//input[@id='passwd']
+drpdwn_Day=//select[@id='days']
+drpdwn_Month=//select[@id='months']
+drpdwn_Year=//select[@id='years']
+btn_Reguster=//button[@id='submitAccount']//span
